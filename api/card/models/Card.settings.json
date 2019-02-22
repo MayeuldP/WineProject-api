@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "cards",
+  "info": {
+    "name": "card",
+    "description": "This model allow us to retrieve card directly on the mobile app to get the content. "
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "title": {
+      "default": "",
+      "type": "string"
+    },
+    "content": {
+      "default": "",
+      "type": "text"
+    },
+    "picture": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
