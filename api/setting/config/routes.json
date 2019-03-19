@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/cards",
-      "handler": "Card.find",
+      "path": "/settings",
+      "handler": "Setting.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/cards/count",
-      "handler": "Card.count",
+      "path": "/settings/count",
+      "handler": "Setting.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/cards/:id",
-      "handler": "Card.findOne",
+      "path": "/settings/:id",
+      "handler": "Setting.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/cards",
-      "handler": "Card.create",
+      "path": "/settings",
+      "handler": "Setting.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/cards/:id",
-      "handler": "Card.update",
+      "path": "/settings/:id",
+      "handler": "Setting.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/cards/:id",
-      "handler": "Card.destroy",
+      "path": "/settings/:id",
+      "handler": "Setting.destroy",
       "config": {
         "policies": []
       }

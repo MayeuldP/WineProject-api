@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "settings",
+  "info": {
+    "name": "setting",
+    "description": "Permet de fetch les settings de base au lancement de l'application comme le numero API, le nombre de Cards, etc..."
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "nbCards": {
+      "default": "",
+      "type": "integer"
+    },
+    "apiVersion": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}
